@@ -66,7 +66,7 @@ int main() {
 
         system("COLOR 04");
     }
-        
+  
         if (contrasena == "neo") 
 		{
         system("COLOR 02");
@@ -82,40 +82,13 @@ int main() {
  
 
         while(ciclos<=10) {
-        	int i = 0;  
-   
-         
-            
-            // caracteres aleatorios
-            while (i < 80) {
-                if (caRow[i] != ' ') {
-                    caRow[i] = GetChar(j + i*i, 33, 30);
-                    cout << caRow[i];
-                }
-                
-                ++i;
-            }
-            j = (j + 31);
-            k = (k + 17);
-            l = (l + 47);
-            m = (m + 67);
-            caRow[Modulus(j, 80)] = '-';
-            caRow[Modulus(k, 80)] = ' ';
-            caRow[Modulus(l, 80)] = '-';
-            caRow[Modulus(m, 80)] = ' ';
-            
-            i = 0;
-            while (i < 3000) {
-                GetChar(1, 1, 1);
-                 ++i;
-            }
- 
-            
-            ciclos++;
+        	int i = 0;    
+            cout<<"        "<<endl;
+            i++;         
         }       
          cout<<endl;
          cout<<endl;
-         cout<<"*** El SISTEMA FALLO  ***";
+         cout<<"*** El SISTEMA FALLO ***";
         system("COLOR 04");
         
     }
