@@ -82,10 +82,8 @@ int main() {
  
 
         while(ciclos<=10) {
-        	int i = 1;    
-			
-			cout<<i;
-			i++;     
+        	int i = 0;  
+   
          
             
             // caracteres aleatorios
