@@ -12,13 +12,9 @@ int main(int argc, char const *argv[])
 
     {
 
-        cout<<"Valor de la variable indice"<<indice<<endl;
+        cout << "Valor de la variable indice"<< indice << endl;
 
     }
-
-
-
-
 
     return 0;
 
