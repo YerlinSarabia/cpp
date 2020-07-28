@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
 
 {
 
+
     int pares=0;
 
     for(int i=1; i<=100; i++)
