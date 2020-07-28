@@ -25,11 +25,9 @@ int main(int argc, char const *argv[])
 
 
 
-        if(i%2 != 0)
+        if (i%2 != 0){
 
-        {
-
-            impares=impares+i;
+            impares = impares + i;
         }
 
         cout <<i<<" ";
