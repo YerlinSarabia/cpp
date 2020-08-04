@@ -231,13 +231,11 @@ void productos(int opcion)
             }
 
             
-
             cout << endl;
 
             cout << "Producto agregado" << endl << endl;
 
             system("pause");
-
 
 
             break;
