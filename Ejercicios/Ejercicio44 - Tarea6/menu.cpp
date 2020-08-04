@@ -50,7 +50,6 @@ void menu()
       cin >> opcion;
 
 
-
         if (opcion == 0)
 
         {
