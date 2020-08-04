@@ -35,11 +35,9 @@ void imprimirFactura()
     cout << "  " << endl;
 
 
-
     cout << "Productos: " << endl;
 
     cout << listaProductos;
-
     
 
     
