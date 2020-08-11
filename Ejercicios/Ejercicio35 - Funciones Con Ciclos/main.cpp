@@ -41,7 +41,6 @@ cout << "Hola Mundo" << endl;
 imprimirCaracteres('*', 1000);
 
 
-
     return 0;
 
 }
